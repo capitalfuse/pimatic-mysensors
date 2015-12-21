@@ -2,8 +2,8 @@
   "name": "pimatic-mysensors",
   "description": "MySensors Plugin for pimatic",
   "author": {
-    "name": "Dheeraj Khajuria",
-    "email": "Dheeraj.Khajuria@gmail.com"
+    "name": "Takanobu Fuse",
+    "email": "ficus.online.store@gmail.com"
   },
   "main": "MySensors",
   "files": [
@@ -21,7 +21,7 @@
   "homepage": "http://pimatic.org",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DheerajKhajuria/pimatic-MySensors.git"
+    "url": "git://github.com/capitalfuse/pimatic-MySensors.git"
   },
   "configSchema": "MySensors-config-schema.coffee",
   "icon": "icon.svg",
@@ -30,8 +30,8 @@
     "MySensors"
   ],
   "dependencies": {
-    "bluebird": "^2.2.2",
-    "serialport": "^1.4.10"
+    "bluebird": ">2.2.2",
+    "serialport": ">1.4.10"
   },
   "peerDependencies": {
     "pimatic": "0.8.*"
@@ -42,7 +42,7 @@
   },
   "gitHead": "0c531701970a4f9f8a90283b1158b9705dd6e2d8",
   "bugs": {
-    "url": "https://github.com/DheerajKhajuria/pimatic-MySensors/issues"
+    "url": "https://github.com/capitalfuse/pimatic-MySensors/issues"
   },
   "_id": "pimatic-mysensors@0.8.17",
   "scripts": {},
